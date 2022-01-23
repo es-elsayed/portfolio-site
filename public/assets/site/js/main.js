@@ -187,3 +187,11 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== Alert Message ====================*/
+
+// remove alert message after 10 second
+const alert = document.getElementById("alert")
+if (document.contains(alert)) {
+    setTimeout(async () => alert.remove(), 10000);
+}

@@ -70,8 +70,7 @@
                 </div>
             </div>
         </nav>
-    <div class="message">lol</div>
-
+        <x-alert />
     </header>
 
     <!--==================== MAIN ====================-->
@@ -808,7 +807,8 @@
                 </div>
                 <div class="contact__content">
                     <label for="message" class="contact__label">Message</label>
-                    <textarea name="message" id="message" cols="0" rows="7" class="contact__input">{{ old('message') }}</textarea>
+                    <textarea name="message" id="message" cols="0" rows="7"
+                        class="contact__input">{{ old('message') }}</textarea>
                     @error('message')
                     <div class="error">* {{ $message }} *</div>
                     @enderror

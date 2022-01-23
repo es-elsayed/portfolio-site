@@ -37,7 +37,7 @@ class MessageController extends Controller
     public function store(MessageRequest $request)
     {
         Message::create($request->except('_token'));
-        return redirect()->route('portfolio')->with('success',"Thanks's $request->name , Yout Message Sent Successfully");
+        return redirect()->route('portfolio')->with('success',"Thanks's <span class='sender'> $request->name </span>, Yout Message Sent Successfully");
     }
 
     /**
