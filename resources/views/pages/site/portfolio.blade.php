@@ -1,10 +1,16 @@
-{{--
-<!DOCTYPE html> --}}
+@php
+    $name = "Islam Abd-Elkader"
+@endphp
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="I'm Islam Abd-Elkader, A Full Stack Developer, with very good experience in programming especially in web development, ambitious, and I'm always trying to develop myself and develop where I belong. Looking to work in an environment that encourages me to succeed and grow professionally where I can utilize my skills and knowledge appropriately.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Developer, PHP, Laravel, Web Developer, Islam, Islam Abdu, Islam Abdelkader, Islam Abd-Elkader">
+    <meta name="author" content="{{ $name }}">
 
     <!--==================== UNICONS ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -18,7 +24,7 @@
     <!--==================== Icon ====================-->
     <link rel="icon" href="assets/site/img/personal/logo.svg">
 
-    <title>Islam Abd-Elkader</title>
+    <title>{{ $name }}</title>
 </head>
 
 <body>
@@ -837,13 +843,13 @@
                     <li class="footer__link">Contact</li>
                 </ul>
                 <div class="footer__socials">
-                    <a href="" target="_blank" class="footer__social">
+                    <a href="https://www.facebook.com/Islam.3bdu" target="_blank" class="footer__social">
                         <i class="uil uil-facebook-f"></i>
                     </a>
-                    <a href="" target="_blank" class="footer__social">
+                    <a href="https://www.instagram.com/islam.3bdu/" target="_blank" class="footer__social">
                         <i class="uil uil-instagram"></i>
                     </a>
-                    <a href="" target="_blank" class="footer__social">
+                    <a href="https://twitter.com/Islam3bdu" target="_blank" class="footer__social">
                         <i class="uil uil-twitter-alt"></i>
                     </a>
                 </div>
