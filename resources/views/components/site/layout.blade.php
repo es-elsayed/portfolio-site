@@ -1,5 +1,4 @@
 @props(['title'=>config('app.name', 'Islam')])
-<!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
@@ -10,25 +9,13 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ $title }}</title>
-
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
-    <!-- Bootstrap CSS -->
-    <link href="{{ asset('assets/bootstrap5/css/bootstrap.min.css') }}" rel="stylesheet">
+    <x-site.includes.styles />
 
 </head>
 
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        {{-- <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
@@ -82,15 +69,13 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> --}}
 
         <main class="py-4">
             {{ $slot }}
         </main>
     </div>
-        <!-- Bootstrap Js -->
-        <link href="{{ asset('assets/bootstrap5/js/bootstrap.js.map') }}" rel="stylesheet">
-
+    <x-site.includes.scripts />
 </body>
 
 </html>
