@@ -14,17 +14,7 @@ $name = "Islam Abd-Elkader"
         content="HTML, CSS, JavaScript, Bootstrap, Developer, PHP, Laravel, Web Developer, Islam, Islam Abdu, Islam Abdelkader, Islam Abd-Elkader">
     <meta name="author" content="{{ $name }}">
 
-    <!--==================== UNICONS ====================-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-
-    <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="assets/site/css/swiper-bundle.min.css">
-
-    <!--==================== CSS ====================-->
-    <link rel="stylesheet" href="assets/site/css/styles.css">
-
-    <!--==================== Icon ====================-->
-    <link rel="icon" href="assets/site/img/personal/logo.svg">
+    <x-site.portfolio._styles />
 
     <title>{{ $name }}</title>
 </head>
@@ -97,7 +87,8 @@ $name = "Islam Abd-Elkader"
 
         <x-site.portfolio.sections.project />
 
-        {{-- <x-site.portfolio.sections.testimonial /> --}}
+        {{--
+        <x-site.portfolio.sections.testimonial /> --}}
 
         <x-site.portfolio.sections.contact />
     </main>
@@ -135,12 +126,7 @@ $name = "Islam Abd-Elkader"
     <a href="#" class="scrollup" id="scroll-up">
         <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
-
-    <!--==================== SWIPER JS ====================-->
-    <script src="assets/site/js/swiper-bundle.min.js"></script>
-
-    <!--==================== MAIN JS ====================-->
-    <script src="assets/site/js/main.js"></script>
+    <x-site.portfolio._scripts />
 </body>
 
 </html>
