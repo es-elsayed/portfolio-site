@@ -1,9 +1,9 @@
-<section class="services section" id="services">
-    <h2 class="section__title">Services</h2>
-    <span class="section__subtitle">What i offer</span>
 
-    <div class="services__container container grid">
-
+<x-site.portfolio.sections._layout
+section="services"
+subtitle="What I offer"
+class="grid"
+>
         <!--==================== SERVICE 1 ====================-->
         <div class="services__content">
             <div>
@@ -69,6 +69,4 @@
                 </div>
             </div>
         </div>
-
-    </div>
-</section>
+</x-site.portfolio.sections._layout>

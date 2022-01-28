@@ -97,7 +97,7 @@ $name = "Islam Abd-Elkader"
 
         <x-site.portfolio.sections.project />
 
-        <x-site.portfolio.sections.testimonial />
+        {{-- <x-site.portfolio.sections.testimonial /> --}}
 
         <x-site.portfolio.sections.contact />
     </main>

@@ -14,5 +14,4 @@
             <img src="assets/site/img/woman/money.png" alt="" class="project__img">
         </div>
     </div>
-
 </section>

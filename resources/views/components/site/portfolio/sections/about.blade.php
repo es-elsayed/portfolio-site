@@ -1,9 +1,10 @@
-<section class="about section" id="about">
-    <h2 class="section__title">About Me</h2>
-    <span class="section__subtitle">My introduction</span>
-
-    <div class="about__container container grid">
-        <img src="assets/site/img/woman/graphs.png" alt="" class="about__img">
+<x-site.portfolio.sections._layout
+section="about"
+title="about me"
+subtitle="My introduction"
+class="grid"
+>
+<img src="assets/site/img/woman/graphs.png" alt="" class="about__img">
         <div class="about__data">
             <p class="about__description">
                 A Full Stack Developer, with very good experience in programming especially in web development,
@@ -32,5 +33,4 @@
                 </a>
             </div>
         </div>
-    </div>
-</section>
+</x-site.portfolio.sections._layout>
