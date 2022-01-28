@@ -6,8 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--==================== UNICONS ====================-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--==================== Boxicons ====================-->
+    {{-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> --}}
+    <link rel="stylesheet" href="assets/site/css/icons.css">
 
     <!--==================== SWIPER CSS ====================-->
     <link rel="stylesheet" href="assets/site/css/swiper-bundle.min.css">
@@ -32,13 +33,13 @@
                     <div class="home__social">
                         <a href="https://www.linkedin.com/in/islam-abd-elkader/" target="_blank"
                             class="home__social-icon">
-                            <i class="uil uil-linkedin-alt"></i>
+                            <i class='bx bxl-linkedin'></i>
                         </a>
                         <a href="https://github.com/islam-abdelkader" target="_blank" class="home__social-icon">
-                            <i class="uil uil-github-alt"></i>
+                            <i class='bx bxl-github'></i>
                         </a>
                         <a href="mailto:contact@islamabdelkader.com" target="_blank" class="home__social-icon">
-                            <i class="uil uil-envelope-star"></i>
+                            <i class='bx bx-envelope'></i>
                         </a>
                     </div>
                     <div class="home__img">
@@ -70,15 +71,16 @@
                             Bachelor of Communication and Elecronics Engineer, Passionate about software development.
                         </p>
                         <a href="#contact" class="button button--flex">
-                            Contact <i class="uil uil-message button__icon"></i>
+                            Contact <i class='bx bx-send bx-flashing button__icon'></i>
                         </a>
                     </div>
                 </div>
                 <div class="home__scroll">
                     <a href="#about" class="home__scroll-button button--flex">
-                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <i class='bx bx-mouse home__scroll-mouse' ></i>
+
                         <span class="home__scroll-name">Scroll down</span>
-                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        <i class='bx bx-down-arrow-alt home__scroll-arrow'></i>
                     </a>
                 </div>
             </div>
@@ -115,7 +117,7 @@
                     <div class="about__buttons">
                         <a download="" href="assets/site/pdf/Islam_Abd-Elkader_Fullstack-PHP-Web-Developer(Laravel).pdf"
                             class="button button--flex">
-                            Download CV<i class="uil uil-download-alt button__icon"></i>
+                            Download CV<i class="bx bx-download button__icon"></i>
                         </a>
                     </div>
                 </div>
@@ -133,7 +135,7 @@
                     <!--==================== SKILL 1====================-->
                     <div class="skills__content skills__close">
                         <div class="skills__header">
-                            <i class="uil uil-brackets-curly skills__icon"></i>
+                            <i class="bx bx-code-curly skills__icon"></i>
                             <div>
                                 <h1 class="skills__titles">Frontend developer</h1>
                                 <span class="skills__subtitle">
@@ -141,7 +143,7 @@
                                 </span>
                             </div>
 
-                            <i class="uil uil-angle-down skills__arrow"></i>
+                            <i class="bx bxs-chevron-down skills__arrow"></i>
                         </div>
                         <div class="skills__list grid">
                             <div class="skills__data">
@@ -213,7 +215,7 @@
                     <!--==================== SKILL 2====================-->
                     <div class="skills__content skills__close">
                         <div class="skills__header">
-                            <i class="uil uil-server-network skills__icon"></i>
+                            <i class="bx bx-server skills__icon"></i>
                             <div>
                                 <h1 class="skills__titles">Backend developer</h1>
                                 <span class="skills__subtitle">
@@ -221,7 +223,7 @@
                                 </span>
                             </div>
 
-                            <i class="uil uil-angle-down skills__arrow"></i>
+                            <i class="bx bxs-chevron-down skills__arrow"></i>
                         </div>
                         <div class="skills__list grid">
                             <div class="skills__data">
@@ -277,7 +279,7 @@
                 <div>
                     <div class="skills__content skills__close">
                         <div class="skills__header">
-                            <i class="uil uil-swatchbook skills__icon"></i>
+                            <i class='bx bx-bar-chart skills__icon'></i>
                             <div>
                                 <h1 class="skills__titles">Other</h1>
                                 <span class="skills__subtitle">
@@ -285,7 +287,7 @@
                                 </span>
                             </div>
 
-                            <i class="uil uil-angle-down skills__arrow"></i>
+                            <i class="bx bxs-chevron-down skills__arrow"></i>
                         </div>
                         <div class="skills__list grid">
                             <div class="skills__data">
@@ -322,11 +324,11 @@
 
                 <div class="qualification__tabs">
                     <div class="qualification__button button--flex qualification__active" data-target='#education'>
-                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        <i class="bx bxs-graduation qualification__icon"></i>
                         Education
                     </div>
                     <div class="qualification__button button--flex" data-target='#work'>
-                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        <i class="bx bx-briefcase-alt-2 qualification__icon"></i>
                         Work
                     </div>
                 </div>
@@ -340,7 +342,7 @@
                                 <h3 class="qualification__title">Full Stack PHP Web Developer</h3>
                                 <span class="qualification__subtitle">Egypt - ITI</span>
                                 <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
+                                    <i class="bx bx-calendar"></i>
                                     2021 - 2021
                                 </div>
                             </div>
@@ -361,7 +363,7 @@
                                 <h3 class="qualification__title">C & Embedded C</h3>
                                 <span class="qualification__subtitle">Egypt - NTI</span>
                                 <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
+                                    <i class="bx bx-calendar"></i>
                                     2020 - 2020
                                 </div>
                             </div>
@@ -372,7 +374,7 @@
                                 <h3 class="qualification__title">Communication & Electronics Engineer</h3>
                                 <span class="qualification__subtitle">Egypt - NDETI</span>
                                 <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
+                                    <i class="bx bx-calendar"></i>
                                     2015 - 2020
                                 </div>
                             </div>
@@ -391,7 +393,7 @@
                                 <h3 class="qualification__title">Full Stack Developer</h3>
                                 <span class="qualification__subtitle">Twision</span>
                                 <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
+                                    <i class="bx bx-calendar"></i>
                                     2021 - Present
                                 </div>
                             </div>
@@ -412,7 +414,7 @@
                                     <h3 class="qualification__title"> ?Title? </h3>
                                     <span class="qualification__subtitle">?Where?</span>
                                     <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
+                                        <i class="bx bx-calendar"></i>
                                         2020 - 2020
                                     </div>
                                 </div>
@@ -423,7 +425,7 @@
                                     <h3 class="qualification__title"> ?Title? </h3>
                                     <span class="qualification__subtitle"> ?Where? </span>
                                     <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
+                                        <i class="bx bx-calendar"></i>
                                         2021 - 2021
                                     </div>
                                 </div>
@@ -447,29 +449,29 @@
                 <!--==================== SERVICE 1 ====================-->
                 <div class="services__content">
                     <div>
-                        <i class="uil uil-arrow services__icon"></i>
+                        <i class="bx bx-code-alt services__icon"></i>
                         <h3 class="services__title">Frontend Developer</h3>
                     </div>
                     <span class="button button--flex button--small button--link services__button">
                         View More
-                        <i class="uil uil-arrow-right button__icon"></i>
+                        <i class="bx bx-right-arrow-alt button__icon"></i>
                     </span>
 
                     <div class="services__modal">
                         <div class="services__modal-content">
                             <h4 class="services__modal-title">Frontend <br> Developer</h4>
-                            <i class="uil uil-times services__modal-close"></i>
+                            <i class="bx bx-x services__modal-close"></i>
                             <ul class="services__modal-services grid">
                                 <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <i class="bx bx-check-circle services__modal-icon"></i>
                                     <p>Ease of use</p>
                                 </li>
                                 <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <i class="bx bx-check-circle services__modal-icon"></i>
                                     <p>Speed sites </p>
                                 </li>
                                 <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <i class="bx bx-check-circle services__modal-icon"></i>
                                     <p>Fluid design</p>
                                 </li>
                             </ul>
@@ -480,29 +482,29 @@
                 <!--==================== SERVICE 2 ====================-->
                 <div class="services__content">
                     <div>
-                        <i class="uil uil-pen services__icon"></i>
+                        <i class="bx bx-pencil services__icon"></i>
                         <h3 class="services__title">Backend Developer</h3>
                     </div>
                     <span class="button button--flex button--small button--link services__button">
                         View More
-                        <i class="uil uil-arrow-right button__icon"></i>
+                        <i class="bx bx-right-arrow-alt button__icon"></i>
                     </span>
 
                     <div class="services__modal">
                         <div class="services__modal-content">
                             <h4 class="services__modal-title">Backend <br> Developer</h4>
-                            <i class="uil uil-times services__modal-close"></i>
+                            <i class="bx bx-x services__modal-close"></i>
                             <ul class="services__modal-services grid">
                                 <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <i class="bx bx-check-circle services__modal-icon"></i>
                                     <p>Best Practices</p>
                                 </li>
                                 <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <i class="bx bx-check-circle services__modal-icon"></i>
                                     <p>Making a complex websites</p>
                                 </li>
                                 <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <i class="bx bx-check-circle services__modal-icon"></i>
                                     <p>Clean & properly constructed pages</p>
                                 </li>
                             </ul>
@@ -553,11 +555,11 @@
                                 <div class="portfolio__buttons">
                                     <a target="_blank" href="https://islam-abdelkader.github.io/HTML-Css-Template-One/"
                                         class="button button--flex button--small portfolio__button">
-                                        Preview <i class="uil uil-arrow-right button__icon"></i>
+                                        Preview <i class="bx bx-right-arrow-alt button__icon"></i>
                                     </a>
                                     <a target="_blank" href="https://github.com/islam-abdelkader/HTML-Css-Template-One"
                                         class="button button--flex button--small portfolio__button">
-                                        Demo <i class="uil uil-arrow-right button__icon"></i>
+                                        Demo <i class="bx bx-right-arrow-alt button__icon"></i>
                                     </a>
                                 </div>
                             </div>
@@ -579,12 +581,12 @@
                                     <a target="_blank"
                                         href="https://islam-abdelkader.github.io/Responsive-page-Bootstrap5-/"
                                         class="button button--flex button--small portfolio__button">
-                                        Preview <i class="uil uil-arrow-right button__icon"></i>
+                                        Preview <i class="bx bx-right-arrow-alt button__icon"></i>
                                     </a>
                                     <a target="_blank"
                                         href="https://github.com/islam-abdelkader/Responsive-page-Bootstrap5-"
                                         class="button button--flex button--small portfolio__button">
-                                        Demo <i class="uil uil-arrow-right button__icon"></i>
+                                        Demo <i class="bx bx-right-arrow-alt button__icon"></i>
                                     </a>
                                 </div>
                             </div>
@@ -605,11 +607,11 @@
                                 <div class="portfolio__buttons">
                                     <a target="_blank" href="https://islam-abdelkader.github.io/MonsterGame-using-Vue/"
                                         class="button button--flex button--small portfolio__button">
-                                        Preview <i class="uil uil-arrow-right button__icon"></i>
+                                        Preview <i class="bx bx-right-arrow-alt button__icon"></i>
                                     </a>
                                     <a target="_blank" href="https://github.com/islam-abdelkader/MonsterGame-using-Vue"
                                         class="button button--flex button--small portfolio__button">
-                                        Demo <i class="uil uil-arrow-right button__icon"></i>
+                                        Demo <i class="bx bx-right-arrow-alt button__icon"></i>
                                     </a>
                                 </div>
                             </div>
@@ -618,10 +620,10 @@
                 </div>
                 <!-- Add Arrows -->
                 <div class="swiper-button-next">
-                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    <i class="bx bx-chevron-right swiper-portfolio-icon"></i>
                 </div>
                 <div class="swiper-button-prev">
-                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    <i class="bx bx-chevron-left swiper-portfolio-icon"></i>
                 </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
@@ -639,7 +641,7 @@
                             amazing and makes you money.</p>
                         <a href="#contact" class="button button--flex button--white">
                             Contact
-                            <i class="uil uil-message project__icon button__icon"></i>
+                            <i class="bx bx-send project__icon button__icon"></i>
                         </a>
                     </div>
                     <img src="assets/site/img/woman/money.png" alt="" class="project__img">
@@ -666,11 +668,11 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="bx bx-star testimonial__icon-star"></i>
+                                    <i class="bx bx-star testimonial__icon-star"></i>
+                                    <i class="bx bx-star testimonial__icon-star"></i>
+                                    <i class="bx bx-star testimonial__icon-star"></i>
+                                    <i class="bx bx-star testimonial__icon-star"></i>
                                 </div>
                             </div>
                             <p class="testimonial__description">
@@ -688,11 +690,11 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="bx bx-star testimonial__icon-star"></i>
+                                    <i class="bx bx-star testimonial__icon-star"></i>
+                                    <i class="bx bx-star testimonial__icon-star"></i>
+                                    <i class="bx bx-star testimonial__icon-star"></i>
+                                    <i class="bx bx-star testimonial__icon-star"></i>
                                 </div>
                             </div>
                             <p class="testimonial__description">
@@ -712,7 +714,7 @@
             <div class="contact__container container grid">
                 <!-- <div> -->
                 <div class="contact__information">
-                    <i class="uil uil-phone contact__icon"></i>
+                    <i class="bx bx-phone-call contact__icon"></i>
                     <div>
                         <h3 class="contact__title">Call Me</h3>
                         <span class="contact__subtitle">
@@ -723,14 +725,14 @@
                     </div>
                 </div>
                 <div class="contact__information">
-                    <i class="uil uil-envelope contact__icon"></i>
+                    <i class='bx bx-envelope contact__icon'></i>
                     <div>
                         <h3 class="contact__title">Email</h3>
                         <span class="contact__subtitle">contact@islamabdelkader.com</span>
                     </div>
                 </div>
                 <div class="contact__information">
-                    <i class="uil uil-map-marker contact__icon"></i>
+                    <i class="bx bx-map contact__icon"></i>
                     <div>
                         <h3 class="contact__title">Location</h3>
                         <span class="contact__subtitle">Egypt - Dakahlia #35666</span>
@@ -765,7 +767,7 @@
                 </div>
                 <div>
                     <button type="submit" class="button button--flex">
-                        Send Message <i class="uil uil-message button__icon"></i>
+                        Send Message <i class="bx bx-send button__icon"></i>
                     </button>
                 </div>
             </form>
@@ -788,13 +790,13 @@
                 </ul>
                 <div class="footer__socials">
                     <a href="" target="_blank" class="footer__social">
-                        <i class="uil uil-facebook-f"></i>
+                        <i class="bx bxl-facebook"></i>
                     </a>
                     <a href="" target="_blank" class="footer__social">
-                        <i class="uil uil-instagram"></i>
+                        <i class="bx bxl-instagram"></i>
                     </a>
                     <a href="" target="_blank" class="footer__social">
-                        <i class="uil uil-twitter-alt"></i>
+                        <i class="bx bxl-twitter"></i>
                     </a>
                 </div>
             </div>
@@ -804,7 +806,7 @@
 
     <!--==================== SCROLL TOP ====================-->
     <a href="#" class="scrollup" id="scroll-up">
-        <i class="uil uil-arrow-up scrollup__icon"></i>
+        <i class="bx bx-up-arrow-alt bx-tada scrollup__icon"></i>
     </a>
 
     <!--==================== SWIPER JS ====================-->
