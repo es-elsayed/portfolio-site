@@ -7,7 +7,7 @@ class="grid"
     <!--==================== SKILL 1====================-->
     <div class="skills__content skills__close">
         <div class="skills__header">
-            <i class="uil uil-brackets-curly skills__icon"></i>
+            <i class="bx bx-code-curly skills__icon"></i>
             <div>
                 <h1 class="skills__titles">Frontend developer</h1>
                 <span class="skills__subtitle">
@@ -15,7 +15,7 @@ class="grid"
                 </span>
             </div>
 
-            <i class="uil uil-angle-down skills__arrow"></i>
+            <i class="bx bxs-chevron-down skills__arrow"></i>
         </div>
         <div class="skills__list grid">
             <div class="skills__data">
@@ -87,7 +87,7 @@ class="grid"
     <!--==================== SKILL 2====================-->
     <div class="skills__content skills__close">
         <div class="skills__header">
-            <i class="uil uil-server-network skills__icon"></i>
+            <i class="bx bx-server skills__icon"></i>
             <div>
                 <h1 class="skills__titles">Backend developer</h1>
                 <span class="skills__subtitle">
@@ -95,7 +95,7 @@ class="grid"
                 </span>
             </div>
 
-            <i class="uil uil-angle-down skills__arrow"></i>
+            <i class="bx bxs-chevron-down skills__arrow"></i>
         </div>
         <div class="skills__list grid">
             <div class="skills__data">
@@ -151,7 +151,7 @@ class="grid"
 <div>
     <div class="skills__content skills__close">
         <div class="skills__header">
-            <i class="uil uil-swatchbook skills__icon"></i>
+            <i class="bx bx-bar-chart skills__icon"></i>
             <div>
                 <h1 class="skills__titles">Other</h1>
                 <span class="skills__subtitle">
@@ -159,7 +159,7 @@ class="grid"
                 </span>
             </div>
 
-            <i class="uil uil-angle-down skills__arrow"></i>
+            <i class="bx bxs-chevron-down skills__arrow"></i>
         </div>
         <div class="skills__list grid">
             <div class="skills__data">

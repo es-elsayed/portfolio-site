@@ -20,6 +20,11 @@
                     </a>
                 </li>
                 <li class="nav__item">
+                    <a href="#qualification" class="nav__link">
+                        <i class='bx bx-medal nav__icon' ></i>Qualification
+                    </a>
+                </li>
+                <li class="nav__item">
                     <a href="#services" class="nav__link">
                         <i class="bx bx-briefcase-alt-2 nav__icon"></i>Services
                     </a>

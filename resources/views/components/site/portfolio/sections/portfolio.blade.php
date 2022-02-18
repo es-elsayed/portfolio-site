@@ -34,11 +34,11 @@
                     <div class="portfolio__buttons">
                         <a target="_blank" href="https://islam-abdelkader.github.io/HTML-Css-Template-One/"
                             class="button button--flex button--small portfolio__button">
-                            Preview <i class="uil uil-arrow-right button__icon"></i>
+                            Preview <i class="bx bx-right-arrow-alt button__icon"></i>
                         </a>
                         <a target="_blank" href="https://github.com/islam-abdelkader/HTML-Css-Template-One"
                             class="button button--flex button--small portfolio__button">
-                            Demo <i class="uil uil-arrow-right button__icon"></i>
+                            Demo <i class="bx bx-right-arrow-alt button__icon"></i>
                         </a>
                     </div>
                 </div>
@@ -59,11 +59,11 @@
                     <div class="portfolio__buttons">
                         <a target="_blank" href="https://islam-abdelkader.github.io/Responsive-page-Bootstrap5-/"
                             class="button button--flex button--small portfolio__button">
-                            Preview <i class="uil uil-arrow-right button__icon"></i>
+                            Preview <i class="bx bx-right-arrow-alt button__icon"></i>
                         </a>
                         <a target="_blank" href="https://github.com/islam-abdelkader/Responsive-page-Bootstrap5-"
                             class="button button--flex button--small portfolio__button">
-                            Demo <i class="uil uil-arrow-right button__icon"></i>
+                            Demo <i class="bx bx-right-arrow-alt button__icon"></i>
                         </a>
                     </div>
                 </div>
@@ -84,11 +84,11 @@
                     <div class="portfolio__buttons">
                         <a target="_blank" href="https://islam-abdelkader.github.io/MonsterGame-using-Vue/"
                             class="button button--flex button--small portfolio__button">
-                            Preview <i class="uil uil-arrow-right button__icon"></i>
+                            Preview <i class="bx bx-right-arrow-alt button__icon"></i>
                         </a>
                         <a target="_blank" href="https://github.com/islam-abdelkader/MonsterGame-using-Vue"
                             class="button button--flex button--small portfolio__button">
-                            Demo <i class="uil uil-arrow-right button__icon"></i>
+                            Demo <i class="bx bx-right-arrow-alt button__icon"></i>
                         </a>
                     </div>
                 </div>
@@ -97,10 +97,10 @@
     </div>
     <!-- Add Arrows -->
     <div class="swiper-button-next">
-        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+        <i class="bx bx-chevron-right swiper-portfolio-icon"></i>
     </div>
     <div class="swiper-button-prev">
-        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+        <i class="bx bx-chevron-left swiper-portfolio-icon"></i>
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>

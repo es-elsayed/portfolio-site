@@ -8,7 +8,7 @@
                     amazing and makes you money.</p>
                 <a href="#contact" class="button button--flex button--white">
                     Contact
-                    <i class="uil uil-message project__icon button__icon"></i>
+                    <i class="bx bx-send project__icon button__icon"></i>
                 </a>
             </div>
             <img src="assets/site/img/woman/money.png" alt="" class="project__img">

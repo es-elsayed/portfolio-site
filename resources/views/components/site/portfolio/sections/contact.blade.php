@@ -1,6 +1,6 @@
 <x-site.portfolio.sections._layout section="contact" subtitle="Get in touch" class="grid">
     <div class="contact__information">
-        <i class="uil uil-phone contact__icon"></i>
+        <i class="bx bx-phone-call contact__icon"></i>
         <div>
             <h3 class="contact__title">Call Me</h3>
             <span class="contact__subtitle">
@@ -11,14 +11,14 @@
         </div>
     </div>
     <div class="contact__information">
-        <i class="uil uil-envelope contact__icon"></i>
+        <i class="bx bx-envelope contact__icon"></i>
         <div>
             <h3 class="contact__title">Email</h3>
             <span class="contact__subtitle">contact@islamabdelkader.com</span>
         </div>
     </div>
     <div class="contact__information">
-        <i class="uil uil-map-marker contact__icon"></i>
+        <i class="bx bx-map contact__icon"></i>
         <div>
             <h3 class="contact__title">Location</h3>
             <span class="contact__subtitle">Egypt - Dakahlia #35666</span>
@@ -52,7 +52,7 @@
     </div>
     <div>
         <button type="submit" class="button button--flex">
-            Send Message <i class="uil uil-message button__icon"></i>
+            Send Message <i class="bx bx-send button__icon"></i>
         </button>
     </div>
 </form>

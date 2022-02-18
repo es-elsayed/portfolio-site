@@ -15,11 +15,11 @@
                             </div>
                         </div>
                         <div>
-                            <i class="uil uil-star testimonial__icon-star"></i>
-                            <i class="uil uil-star testimonial__icon-star"></i>
-                            <i class="uil uil-star testimonial__icon-star"></i>
-                            <i class="uil uil-star testimonial__icon-star"></i>
-                            <i class="uil uil-star testimonial__icon-star"></i>
+                            <i class="bx bx-star testimonial__icon-star"></i>
+                            <i class="bx bx-star testimonial__icon-star"></i>
+                            <i class="bx bx-star testimonial__icon-star"></i>
+                            <i class="bx bx-star testimonial__icon-star"></i>
+                            <i class="bx bx-star testimonial__icon-star"></i>
                         </div>
                     </div>
                     <p class="testimonial__description">
@@ -37,11 +37,11 @@
                             </div>
                         </div>
                         <div>
-                            <i class="uil uil-star testimonial__icon-star"></i>
-                            <i class="uil uil-star testimonial__icon-star"></i>
-                            <i class="uil uil-star testimonial__icon-star"></i>
-                            <i class="uil uil-star testimonial__icon-star"></i>
-                            <i class="uil uil-star testimonial__icon-star"></i>
+                            <i class="bx bx-star testimonial__icon-star"></i>
+                            <i class="bx bx-star testimonial__icon-star"></i>
+                            <i class="bx bx-star testimonial__icon-star"></i>
+                            <i class="bx bx-star testimonial__icon-star"></i>
+                            <i class="bx bx-star testimonial__icon-star"></i>
                         </div>
                     </div>
                     <p class="testimonial__description">

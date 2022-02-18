@@ -29,7 +29,7 @@ class="grid"
             <div class="about__buttons">
                 <a download="" href="assets/site/pdf/Islam_Abd-Elkader_Fullstack-PHP-Web-Developer(Laravel).pdf"
                     class="button button--flex">
-                    Download CV<i class="uil uil-download-alt button__icon"></i>
+                    Download CV<i class="bx bx-download button__icon"></i>
                 </a>
             </div>
         </div>

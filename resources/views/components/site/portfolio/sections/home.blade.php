@@ -4,13 +4,13 @@
             <div class="home__social">
                 <a href="https://www.linkedin.com/in/islam-abd-elkader/" target="_blank"
                     class="home__social-icon">
-                    <i class="uil uil-linkedin-alt"></i>
+                    <i class="bx bxl-linkedin"></i>
                 </a>
                 <a href="https://github.com/islam-abdelkader" target="_blank" class="home__social-icon">
-                    <i class="uil uil-github-alt"></i>
+                    <i class="bx bxl-github"></i>
                 </a>
                 <a href="mailto:contact@islamabdelkader.com" target="_blank" class="home__social-icon">
-                    <i class="uil uil-envelope-star"></i>
+                    <i class="bx bx-envelope"></i>
                 </a>
             </div>
             <div class="home__img">
@@ -42,15 +42,15 @@
                     Bachelor of Communication and Elecronics Engineer, Passionate about software development.
                 </p>
                 <a href="#contact" class="button button--flex">
-                    Contact <i class="uil uil-message button__icon"></i>
+                    Contact <i class="bx bx-send bx-flashing button__icon"></i>
                 </a>
             </div>
         </div>
         <div class="home__scroll">
             <a href="#about" class="home__scroll-button button--flex">
-                <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                <i class="bx bx-mouse home__scroll-mouse"></i>
                 <span class="home__scroll-name">Scroll down</span>
-                <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                <i class="bx bx-down-arrow-alt home__scroll-arrow"></i>
             </a>
         </div>
     </div>
