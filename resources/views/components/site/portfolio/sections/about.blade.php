@@ -4,7 +4,7 @@ title="about me"
 subtitle="My introduction"
 class="grid"
 >
-<img src="assets/site/img/woman/graphs.png" alt="" class="about__img">
+<img src="assets/site/img/woman/graphs.png" alt="Thinking" title="think" class="about__img">
         <div class="about__data">
             <p class="about__description">
                 A Full Stack Developer, with very good experience in programming especially in web development,

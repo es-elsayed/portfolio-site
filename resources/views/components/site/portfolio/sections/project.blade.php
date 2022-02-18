@@ -11,7 +11,7 @@
                     <i class="bx bx-send project__icon button__icon"></i>
                 </a>
             </div>
-            <img src="assets/site/img/woman/money.png" alt="" class="project__img">
+            <img src="assets/site/img/woman/money.png" alt="Ambitios" title="Ambitios" class="project__img">
         </div>
     </div>
 </section>

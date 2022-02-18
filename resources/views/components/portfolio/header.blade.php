@@ -1,6 +1,6 @@
 <header class="header" id="header">
     <nav class="nav container">
-        <a href="#" class="nav__logo">Islam</a>
+        <a href="#" class="nav__logo"><img src="{{ asset('assets/site/img/personal/logo.svg') }}" alt="Islam Abdu Logo" title="Home"></a>
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list grid">
                 <li class="nav__item">

@@ -13,7 +13,7 @@
                     <i class="bx bx-envelope"></i>
                 </a>
             </div>
-            <div class="home__img">
+            <div class="home__img" title="Islam Abd-Elkader">
                 <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">
                     <mask id="mask0" mask-type="alpha">
@@ -29,7 +29,7 @@
                             -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
 
                         <image class="home__blob-img" x="10" y="13"
-                            xlink:href="assets/site/img/personal/transparent.png" />
+                            xlink:href="assets/site/img/personal/transparent.png"/>
                     </g>
                 </svg>
             </div>

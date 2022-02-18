@@ -2,7 +2,7 @@
     <div class="swiper-wrapper">
         <!--==================== PORTFOLIO 1 ====================-->
         <div class="portfolio__content grid swiper-slide">
-            <img src="assets/site/img/portfolio/twi-shop-site.png" alt="" class="portfolio__img">
+            <img src="assets/site/img/portfolio/twi-shop-site.png" alt="Twishop" title="Twision E-commerce" class="portfolio__img">
             <div class="portfolio__data">
                 <h3 class="portfolio__title">Twi-Shop</h3>
                 <p class="portfolio__description">E-Commerce Website</p>
@@ -22,7 +22,7 @@
         </div>
         <!--==================== PORTFOLIO 2 ====================-->
         <div class="portfolio__content grid swiper-slide">
-            <img src="assets/site/img/portfolio/html-css-template.png" alt="" class="portfolio__img">
+            <img src="assets/site/img/portfolio/html-css-template.png" alt="HTML CSS Template" title="HTML CSS Template" class="portfolio__img">
             <div class="portfolio__data">
                 <h3 class="portfolio__title">HTML & CSS Template</h3>
                 <p class="portfolio__description">Website adaptable to all devices</p>
@@ -46,7 +46,7 @@
         </div>
         <!--==================== PORTFOLIO 3 ====================-->
         <div class="portfolio__content grid swiper-slide">
-            <img src="assets/site/img/portfolio/bootstrap-template.png" alt="" class="portfolio__img">
+            <img src="assets/site/img/portfolio/bootstrap-template.png" alt="Bootstrap 5 Responsive design" title="Bootstrap 5 Responsive design" class="portfolio__img">
             <div class="portfolio__data">
                 <h3 class="portfolio__title">Bootstrap 5 Lawyer Template</h3>
                 <p class="portfolio__description">Responsive Landing Page</p>
@@ -71,7 +71,7 @@
         </div>
         <!--==================== PORTFOLIO 4 ====================-->
         <div class="portfolio__content grid swiper-slide">
-            <img src="assets/site/img/portfolio/monster-game.png" alt="" class="portfolio__img">
+            <img src="assets/site/img/portfolio/monster-game.png" alt="vuejs practice monster game" title="vuejs practice monster game" class="portfolio__img">
             <div class="portfolio__data">
                 <h3 class="portfolio__title">Vue Monster Game</h3>
                 <p class="portfolio__description">Website adaptable to all devices</p>

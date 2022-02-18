@@ -8,7 +8,7 @@
     <!-- <div class="testimonial__content swiper-slide">
                     <div class="testimonial__data">
                         <div class="testimonial__header">
-                            <img src="assets/site/img/testimonial1.jpg" alt="" class="testimonial__img">
+                            <img src="assets/site/img/testimonial1.jpg" alt="" title="" class="testimonial__img">
                             <div>
                                 <h3 class="testimonial__name">JOHN DUOE</h3>
                                 <span class="testimonial__client">Client</span>
@@ -30,7 +30,7 @@
     <!-- <div class="testimonial__content swiper-slide">
                     <div class="testimonial__data">
                         <div class="testimonial__header">
-                            <img src="assets/site/img/testimonial2.jpg" alt="" class="testimonial__img">
+                            <img src="assets/site/img/testimonial2.jpg" alt="" title="" class="testimonial__img">
                             <div>
                                 <h3 class="testimonial__name">JOHN DUOE</h3>
                                 <span class="testimonial__client">Client</span>
