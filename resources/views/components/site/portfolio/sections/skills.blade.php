@@ -9,7 +9,7 @@ class="grid"
         <div class="skills__header">
             <i class="bx bx-code-curly skills__icon"></i>
             <div>
-                <h1 class="skills__titles">Frontend developer</h1>
+                <h2 class="skills__titles">Frontend developer</h2>
                 <span class="skills__subtitle">
                     More than 1 years
                 </span>
@@ -89,7 +89,7 @@ class="grid"
         <div class="skills__header">
             <i class="bx bx-server skills__icon"></i>
             <div>
-                <h1 class="skills__titles">Backend developer</h1>
+                <h2 class="skills__titles">Backend developer</h2>
                 <span class="skills__subtitle">
                     More than 1 years
                 </span>
@@ -153,7 +153,7 @@ class="grid"
         <div class="skills__header">
             <i class="bx bx-bar-chart skills__icon"></i>
             <div>
-                <h1 class="skills__titles">Other</h1>
+                <h2 class="skills__titles">Other</h2>
                 <span class="skills__subtitle">
                     More than 1 years
                 </span>
