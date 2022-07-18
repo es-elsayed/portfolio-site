@@ -1451,3 +1451,7 @@ button.button {
 .closebtn:hover {
     color: black;
 }
+
+#message{
+    resize: none;
+}
