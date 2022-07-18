@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\MessageController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -16,7 +17,6 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 Route::group(['middleware'=>'auth'], function (){
-    Route::get('/', function () {
-        return view('pages.admin.dashboard');
-    })->name('admin');
+    Route::view('/', 'pages.admin.dashboard')->name('admin');
+    Route::resource('messages', MessageController::class);
 });

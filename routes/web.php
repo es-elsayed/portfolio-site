@@ -1,7 +1,6 @@
 <?php
 
-use App\Http\Controllers\MessageController;
-use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\Site\MessageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Auth::routes();
 Route::get('/', function () {
     return redirect()->route('portfolio');
 });
@@ -23,4 +21,4 @@ Route::get('/portfolio', function () {
     return view('pages.site.portfolio');
 })->name('portfolio');
 
-Route::resource('message', MessageController::class);
+Route::post('message', MessageController::class)->name('addMessage');

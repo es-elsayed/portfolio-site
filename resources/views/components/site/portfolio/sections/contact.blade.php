@@ -25,7 +25,7 @@
         </div>
     </div>
 </x-site.portfolio.sections._layout>
-<form action="{{ route('message.store') }}" method="POST" class="contact__form grid container">
+<form action="{{ route('addMessage') }}" method="POST" class="contact__form grid container">
     @csrf
     <div class="contact__inputs grid">
         <div class="contact__content">

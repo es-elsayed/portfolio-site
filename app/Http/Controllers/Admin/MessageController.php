@@ -1,9 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
-use App\Http\Requests\MessageRequest;
-use App\Models\Message;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class MessageController extends Controller
@@ -15,7 +14,7 @@ class MessageController extends Controller
      */
     public function index()
     {
-        //
+        return view('pages.admin.messages.index');
     }
 
     /**
@@ -34,10 +33,9 @@ class MessageController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(MessageRequest $request)
+    public function store(Request $request)
     {
-        Message::create($request->except('_token'));
-        return redirect()->route('portfolio')->with('success',"Thanks's <span class='sender'> $request->name </span>, Yout Message Sent Successfully");
+        //
     }
 
     /**
