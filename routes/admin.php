@@ -17,6 +17,6 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 Route::group(['middleware'=>'auth'], function (){
     Route::get('/', function () {
-        return 'hi';
+        return view('pages.admin.dashboard');
     })->name('admin');
 });
