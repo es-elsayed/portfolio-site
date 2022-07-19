@@ -1,22 +1,15 @@
 {!! Form::open(['route' => ['messages.destroy', $id], 'method' => 'delete']) !!}
-<div class='btn-group'>
-    <a href="{{ route('messages.show', $id) }}" class='btn btn-default btn-xs'>
-        <i class="fa fa-eye"></i>
+<div class='btn-group' style="border-radius: 4px;background-color: #e4e5e7">
+    <a href="{{ route('messages.show', $id) }}" class='btn btn-delault'>
+        <i class="la la-eye"></i>
     </a>
-    <a href="{{ route('WarehouseShelve.bulkPrinta5') . '?ids=' . $id }}" target="_blank" class='btn btn-default btn-xs'>
-        <i class="flaticon2-print"></i>
+    <a href="{{ route('messages.edit', $id) }}" class='btn btn-delault'>
+        <i class="la la-edit"></i>
     </a>
-    @can('warehouse.warehouseShelve.delete')
-    <a href="{{ route('messages.edit', $id) }}" class='btn btn-default btn-xs'>
-        <i class="fa fa-edit"></i>
-    </a>
-    @endcan
-    @can('warehouse.warehouseShelve.delete')
-    {!! Form::button('<i class="fa fa-trash"></i>', [
+    {!! Form::button('<i class="la la-trash"></i>', [
         'type' => 'submit',
-        'class' => 'btn btn-danger btn-xs',
-        'onclick' => 'return confirm("'.__('crud.are_you_sure').'")'
+        'class' => 'btn btn-danger',
+        'onclick' => 'return confirm("' . __('crud.are_you_sure') . '")',
     ]) !!}
-    @endcan
 </div>
 {!! Form::close() !!}

@@ -25,7 +25,7 @@ class MessagesDataTable extends DataTable
                 return longDateFormat($row->created_at);
             })
             ->rawColumns(['status', 'action'])
-            ->addColumn('action', 'messages.includes.action');
+            ->addColumn('action', 'pages.admin.messages.includes.actions');
     }
 
     /**
