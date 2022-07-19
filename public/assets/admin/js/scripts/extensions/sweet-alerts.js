@@ -4,8 +4,8 @@
 	----------------------------------------------------------------------------------------
 	Item Name: Modern Admin - Responsive Admin Theme
 	Version: 1.0
-	Author: Pixinvent
-	Author URL: hhttp://www.themeforest.net/user/pixinvent
+	Author: Islam3bdu
+	Author URL: hhttp://www.themeforest.net/user/Islam3bdu
 ==========================================================================================*/
 $(document).ready(function(){
 

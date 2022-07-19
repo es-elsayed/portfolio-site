@@ -4,8 +4,8 @@
 	----------------------------------------------------------------------------------------
 	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
 	Version: 1.0
-	Author: PIXINVENT
-	Author URL: http://www.themeforest.net/user/pixinvent
+	Author: Islam3bdu
+	Author URL: http://www.themeforest.net/user/Islam3bdu
 ==========================================================================================*/
 $(document).ready(function(){
 
@@ -97,7 +97,7 @@ $(document).ready(function(){
 		name: 'Leia',
 		born: '1954',
 		image: '../../../app-assets/images/portrait/small/avatar-s-8.png',
-		link: "https://pixinvent.com",
+		link: "https://Islam3bdu.com",
 		id: 5,
 		timestamp: '67893'
 	});

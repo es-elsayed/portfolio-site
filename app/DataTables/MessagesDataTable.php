@@ -54,7 +54,7 @@ class MessagesDataTable extends DataTable
                     ->addAction(['width' => '60px', 'class' => 'text-center', 'printable' => false, 'exportable' => false, 'title' => __('Action')])
                     ->orderBy(1)
                     ->buttons(
-                        Button::make('create'),
+                        Button::make('create')->className('btn-primary float-right'),
                         Button::make('export'),
                         Button::make('print'),
                         Button::make('reset'),

@@ -95,7 +95,7 @@
                                             <li><a class="dropdown-item" href="changelog.html"><i
                                                         class="ft-minimize-2"></i> Change log</a></li>
                                             <li>
-                                                <a class="dropdown-item" href="https://pixinvent.ticksy.com/"><i
+                                                <a class="dropdown-item" href="https://Islam3bdu.ticksy.com/"><i
                                                         class="la la-life-ring"></i>
                                                     Customer support center</a>
                                             </li>

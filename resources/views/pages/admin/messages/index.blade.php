@@ -4,10 +4,10 @@
         @can('warehouse.warehouseShelve.create')
         @endcan
         @endsection --}}
-    <x-slot name="header">
+    {{-- <x-slot name="header">
         <a class="btn btn-primary font-weight-bolder mx-2"
             href="{{ route('messages.create') }}"><i class="fas fa-plus"></i> {{ __('Create') }}</a>
-    </x-slot>
+    </x-slot> --}}
 
     <div class="container">
         {{-- @include('flash::message') --}}
