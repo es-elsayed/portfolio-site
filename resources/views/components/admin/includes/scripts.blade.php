@@ -20,4 +20,4 @@
 <script src="{{ asset('assets/admin/js/scripts/pages/dashboard-sales.js') }}" type="text/javascript"></script>
 <!-- END PAGE LEVEL JS-->
 
-@stack('js')
+@stack('scripts')

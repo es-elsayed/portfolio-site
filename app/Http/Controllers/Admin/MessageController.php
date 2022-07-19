@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\DataTables\MessagesDataTable;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
@@ -12,9 +13,9 @@ class MessageController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(MessagesDataTable $messagesDataTable)
     {
-        return view('pages.admin.messages.index');
+        return $messagesDataTable->render('pages.admin.messages.index');
     }
 
     /**
