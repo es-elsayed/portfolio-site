@@ -1,4 +1,4 @@
-<x-admin.layout title="__('Messages')">
+<x-admin.layout :title="__('Messages')" :breadcrumbTitle="__('messages')">
 
     {{-- @section('header_actions')
         @can('warehouse.warehouseShelve.create')
@@ -6,7 +6,7 @@
         @endsection --}}
     {{-- <x-slot name="header">
         <a class="btn btn-primary font-weight-bolder mx-2"
-            href="{{ route('messages.create') }}"><i class="fas fa-plus"></i> {{ __('Create') }}</a>
+            href="{{ route('admin.portfolio.messages.create') }}"><i class="fas fa-plus"></i> {{ __('Create') }}</a>
     </x-slot> --}}
 
     <div class="container">

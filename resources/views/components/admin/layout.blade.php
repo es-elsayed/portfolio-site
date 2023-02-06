@@ -21,7 +21,7 @@
 <body class="vertical-layout vertical-menu-modern 2-columns   menu-expanded fixed-navbar" data-open="click"
     data-menu="vertical-menu-modern" data-col="2-columns">
     <!-- fixed-top-->
-    <x-admin.includes.nav.bar />
+    <x-admin.includes.header.main />
     <!-- ////////////////////////////////////////////////////////////////////////////-->
     <x-admin.includes.sidebar />
 
@@ -36,7 +36,7 @@
                 @endif
                 <!--end::Actions-->
             </div>
-            <div class="content-body">
+            <div class="content-body" id="app">
 
                 {{-- Content --}}
                 {{ $slot }}
@@ -56,6 +56,8 @@
         </p>
     </footer>
     <x-admin.includes.scripts />
+@stack('scripts')
+
 </body>
 
 </html>
