@@ -24,6 +24,9 @@ class MessagesDataTable extends DataTable
             ->editColumn('created_at', function ($row) {
                 return longDateFormat($row->created_at);
             })
+            ->editColumn('message', function ($row) {
+                return $row->title;
+            })
             ->rawColumns(['status', 'action'])
             ->addColumn('action', 'pages.admin.messages.includes.actions');
     }
