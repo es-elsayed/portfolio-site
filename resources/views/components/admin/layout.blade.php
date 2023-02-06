@@ -1,4 +1,4 @@
-@props(['title' => config('app.name', 'Islam'), 'header' => ''])
+@props(['title' => '', 'breadcrumbTitle', 'header' => ''])
 
 <!DOCTYPE html>
 <html class="loading" lang="en" data-textdirection="ltr">
@@ -12,7 +12,8 @@
     <meta name="keywords"
         content="admin template, modern admin template, dashboard template, flat admin template, responsive admin template, web app, crypto dashboard, bitcoin dashboard">
     <meta name="author" content="Islam3bdu">
-    <title>{{ $title }}</title>
+    <title>{{ config('app.name', 'Laravel') }} {{ $title != '' ? "| $title" : '' }}</title>
+
 
     <x-admin.includes.styles />
 </head>
@@ -28,7 +29,11 @@
         <div class="content-wrapper">
             <div class="content-header row">
                 <!--begin::Actions-->
-                {{ $header }}
+                @if ($breadcrumbTitle ?? 0)
+                    <x-admin.includes.header.sub :title='$breadcrumbTitle'>
+                        <x-slot name="header">{{ $header }}</x-slot>
+                    </x-admin.includes.header.sub>
+                @endif
                 <!--end::Actions-->
             </div>
             <div class="content-body">
@@ -43,12 +48,11 @@
     <footer class="footer footer-static footer-light navbar-border navbar-shadow">
         <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
             <span class="float-md-left d-block d-md-inline-block">Copyright &copy; 2022
-                <a class="text-bold-800 grey darken-2"
-                    href="https://islamabdelkader.com" target="_blank">Islam3bdu
+                <a class="text-bold-800 grey darken-2" href="https://islamabdelkader.com" target="_blank">Islam3bdu
                 </a>, All rights reserved. </span>
             <span class="float-md-right d-block d-md-inline-blockd-none d-lg-block">Hand-crafted & Made with
                 <i class="ft-heart pink"></i>
-                </span>
+            </span>
         </p>
     </footer>
     <x-admin.includes.scripts />

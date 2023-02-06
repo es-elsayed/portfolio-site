@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers\Admin\Portfolio;
 
 use App\DataTables\MessagesDataTable;
 use App\Http\Controllers\Controller;
