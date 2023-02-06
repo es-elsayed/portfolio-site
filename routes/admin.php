@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 Route::redirect('/', '/admin/dashboard');
 
-Route::group(['domain' => 'hi','middleware' => 'auth'], function () {
+Route::group(['middleware' => 'auth'], function () {
     Route::view('/dashboard', 'pages.admin.dashboard')->name('dashboard');
 
     Route::group(['prefix' => 'portfolio', 'as' => 'portfolio.'], function () {
