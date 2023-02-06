@@ -17,3 +17,4 @@
 <script src="{{ asset('assets/admin/js/scripts/customizer.js') }}" type="text/javascript"></script>
 <!-- END MODERN JS-->
 
+<script src="{{ asset('js/app.js') }}"></script>
