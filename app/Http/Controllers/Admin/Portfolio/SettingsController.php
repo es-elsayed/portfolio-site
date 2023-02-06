@@ -1,21 +1,20 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers\Admin\Portfolio;
 
-use App\DataTables\MessagesDataTable;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class MessageController extends Controller
+class SettingsController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(MessagesDataTable $messagesDataTable)
+    public function index()
     {
-        return $messagesDataTable->render('pages.admin.messages.index');
+        return view('pages.admin.portfolio.settings.create');
     }
 
     /**

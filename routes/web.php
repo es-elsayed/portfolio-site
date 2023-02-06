@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return redirect()->route('portfolio');
-});
 Route::get('/portfolio', function () {
     return view('pages.site.portfolio');
 })->name('portfolio');
+Route::redirect('/','/portfolio');
+// Route::redirect('/admin', route('admin.dashboard'));
+
 
 Route::post('message', MessageController::class)->name('addMessage');

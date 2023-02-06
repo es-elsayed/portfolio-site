@@ -16,5 +16,5 @@
 
 {{-- ex: if u want to make a dropdown menu-item --}}
 {{-- <x-admin.includes.nav.nav-item title="DaShBo RD" icon="la la-home">
-                <x-admin.includes.nav.menu :routes="['first' => route('messages.create'),'second' => route('messages.update')]" />
+                <x-admin.includes.nav.menu :routes="['first' => route('admin.portfolio.messages.create'),'second' => route('admin.portfolio.messages.update')]" />
     </x-admin.includes.nav.nav-item> --}}

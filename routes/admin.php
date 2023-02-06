@@ -1,6 +1,7 @@
 <?php
 
-use App\Http\Controllers\Admin\MessageController;
+use App\Http\Controllers\Admin\Portfolio\MessageController;
+use App\Http\Controllers\Admin\Portfolio\SettingsController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -16,7 +17,24 @@ use Illuminate\Support\Facades\Route;
  */
 
 Auth::routes();
-Route::group(['middleware'=>'auth'], function (){
-    Route::view('/', 'pages.admin.dashboard')->name('admin');
-    Route::resource('messages', MessageController::class);
+Route::redirect('/', '/admin/dashboard');
+
+Route::group(['domain' => 'hi','middleware' => 'auth'], function () {
+    Route::view('/dashboard', 'pages.admin.dashboard')->name('dashboard');
+
+    Route::group(['prefix' => 'portfolio', 'as' => 'portfolio.'], function () {
+        Route::resource('messages', MessageController::class);
+        Route::resource('settings', SettingsController::class);
+    });
+
 });
+
+// Route::group(array('domain' => '{subdomain}.project.dev'), function() {
+
+//     Route::get('foo', function($subdomain) {
+//         // Here I can access $subdomain
+//     });
+
+//     $subdomain = Route::input('subdomain');
+
+// });

@@ -1,4 +1,4 @@
-<x-admin.layout title="Hello Islam">
+<x-admin.layout :title="__('Dashboard')">
     <div class="row">
         <div class="col-xl-6 col-12">
             <div class="card">
@@ -495,3 +495,12 @@
     </div>
     <!-- Analytics map based session -->
 </x-admin.layout>
+
+@push('scripts')
+<script>
+    console.log('hiiiii');
+</script>
+    {{-- <!-- BEGIN PAGE LEVEL JS-->
+    <script src="{{ asset('assets/admin/js/scripts/pages/dashboard-sales.js') }}" type="text/javascript"></script>
+    <!-- END PAGE LEVEL JS--> --}}
+@endpush
