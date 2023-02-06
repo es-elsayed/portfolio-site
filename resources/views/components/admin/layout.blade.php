@@ -16,6 +16,9 @@
 
 
     <x-admin.includes.styles />
+
+    @stack('styles')
+
 </head>
 
 <body class="vertical-layout vertical-menu-modern 2-columns   menu-expanded fixed-navbar" data-open="click"
@@ -56,7 +59,8 @@
         </p>
     </footer>
     <x-admin.includes.scripts />
-@stack('scripts')
+
+    @stack('scripts')
 
 </body>
 
