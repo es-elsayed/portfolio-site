@@ -227,8 +227,11 @@
                             <a class="dropdown-item" href="#"><i class="ft-mail"></i> My Inbox</a>
                             <a class="dropdown-item" href="#"><i class="ft-check-square"></i> Task</a>
                             <a class="dropdown-item" href="#"><i class="ft-message-square"></i> Chats</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i
-                                    class="ft-power"></i> Logout</a>
+                            <div class="dropdown-divider"></div>
+                            <x-admin.base.submit-anchor :url="route('admin.logout')" id="logout">
+                                <i class="ft-power"></i>
+                                {{ __('logout') }}
+                            </x-admin.base.submit-anchor>
                         </div>
                     </li>
                     <li class="dropdown dropdown-language nav-item"><a class="dropdown-toggle nav-link"
@@ -353,7 +356,7 @@
                                     New</span>
                             </li>
                             <li class="scrollable-container media-list w-100">
-                                <x-messages-notification/>
+                                <x-messages-notification />
                             </li>
                             <li class="dropdown-menu-footer">
                                 <a class="dropdown-item text-muted text-center" href="javascript:void(0)">
