@@ -82,6 +82,18 @@ return [
 
     'locale' => 'en',
 
+    'locales' => [
+        'ar' => [
+            'locale' => 'app.lang.ar',
+            'dir' => 'rtl',
+            'icon' => 'flag-icon flag-icon-sa'
+        ],
+        'en' => [
+            'locale' => 'app.lang.en',
+            'dir' => 'ltr',
+            'icon' => 'flag-icon flag-icon-gb'
+        ],
+    ],
     /*
     |--------------------------------------------------------------------------
     | Application Fallback Locale

@@ -6,10 +6,10 @@
 <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css" rel="stylesheet">
 <!-- BEGIN VENDOR CSS-->
 @php
-$dir='css';
-if (app()->getLocale() == 'ar') {
-    $dir .= '-rtl';
-}
+    $dir = 'css';
+    if (@getLocaleAttr()['dir'] == 'rtl') {
+        $dir .= '-rtl';
+    }
 @endphp
 <link rel="stylesheet" type="text/css" href="{{ asset("assets/admin/$dir/vendors.css") }}">
 <!-- END VENDOR CSS-->

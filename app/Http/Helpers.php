@@ -27,3 +27,17 @@ if (!function_exists('get_avatar')) {
         return $word;
     }
 }
+
+
+if (!function_exists('getLocaleAttr')) {
+    function getLocaleAttr($locale = null)
+    {
+        if (!$locale) {
+            $locale = app()->getLocale();
+        }
+
+        if (isset(config('app.locales')[$locale])) {
+            return config('app.locales')[$locale];
+        }
+    }
+}

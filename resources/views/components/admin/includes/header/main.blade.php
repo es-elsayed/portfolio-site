@@ -212,9 +212,26 @@
                     </li> --}}
                 </ul>
                 <ul class="nav navbar-nav float-right">
+
+                    <li class="dropdown dropdown-language nav-item">
+                        <a class="dropdown-toggle nav-link" id="dropdown-flag" href="#" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="{{ @getLocaleAttr()['icon'] }}"></i>
+                            <span class="selected-language">
+                            </span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown-flag">
+                            @foreach (config('app.locales') as $key => $item)
+                                <a class="dropdown-item" href="{{ route('admin.change_locale',['locale'=>$key]) }}">
+                                    <i class="{{ $item['icon'] }}"></i>
+                                    {{ __($item['locale']) }}
+                                </a>
+                            @endforeach
+                        </div>
+                    </li>
                     <li class="dropdown dropdown-user nav-item">
                         <a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
-                            <span class="mr-1">{{ __('Hello') }},
+                            <span class="mr-1">{{ __('app.hello') }}
                                 <span class="user-name text-bold-700">{{ auth()->user()->name }}</span>
                             </span>
                             <span class="avatar avatar-online">
@@ -234,22 +251,7 @@
                             </x-admin.base.submit-anchor>
                         </div>
                     </li>
-                    <li class="dropdown dropdown-language nav-item"><a class="dropdown-toggle nav-link"
-                            id="dropdown-flag" href="#" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false"><i class="flag-icon flag-icon-gb"></i><span
-                                class="selected-language"></span></a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown-flag"><a class="dropdown-item"
-                                href="#"><i class="flag-icon flag-icon-gb"></i>
-                                English</a>
-                            <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-fr"></i>
-                                French</a>
-                            <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-cn"></i>
-                                Chinese</a>
-                            <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-de"></i>
-                                German</a>
-                        </div>
-                    </li>
-                    <li class="dropdown dropdown-notification nav-item">
+                    {{-- <li class="dropdown dropdown-notification nav-item">
                         <a class="nav-link nav-link-label" href="#" data-toggle="dropdown"><i
                                 class="ficon ft-bell"></i>
                             <span
@@ -364,7 +366,7 @@
                                 </a>
                             </li>
                         </ul>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
         </div>

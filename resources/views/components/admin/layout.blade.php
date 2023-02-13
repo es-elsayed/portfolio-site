@@ -1,7 +1,9 @@
 @props(['title' => '', 'breadcrumbTitle', 'header' => ''])
 
 <!DOCTYPE html>
-<html class="loading" lang="en" data-textdirection="ltr">
+<html class="loading" lang="{{ str_replace('_', '-', app()->getLocale()) }}" direction="{{ @getLocaleAttr()['dir'] }}"
+    dir="{{ @getLocaleAttr()['dir'] }}" style="direction: {{ @getLocaleAttr()['dir'] }}"
+    data-textdirection="{{ @getLocaleAttr()['dir'] }}">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -30,6 +32,7 @@
 
     <div class="app-content content">
         <div class="content-wrapper">
+            <x-admin.alert />
             <div class="content-header row">
                 <!--begin::Actions-->
                 @if ($breadcrumbTitle ?? 0)

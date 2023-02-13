@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\Portfolio\MessageController;
 use App\Http\Controllers\Admin\Portfolio\SettingsController;
+use App\Http\Controllers\ChangeLocaleController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -20,6 +21,7 @@ Auth::routes();
 Route::redirect('/', '/admin/dashboard');
 
 Route::group(['middleware' => 'auth'], function () {
+    Route::get('change_locale', ChangeLocaleController::class)->name('change_locale');
     Route::view('/dashboard', 'pages.admin.dashboard')->name('dashboard');
 
     Route::group(['prefix' => 'portfolio', 'as' => 'portfolio.'], function () {
